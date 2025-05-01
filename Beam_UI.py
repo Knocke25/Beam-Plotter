@@ -16,12 +16,6 @@ class Ui_Dialog(object):
         self.pushButton_Exit.setGeometry(QtCore.QRect(250, 560, 140, 34))
         self.pushButton_Exit.setObjectName("pushButton_Exit")
 
-
-
-
-
-        
-
         self.groupBox = QtWidgets.QGroupBox(Dialog)
         self.groupBox.setGeometry(QtCore.QRect(30, 20, 601, 191))
         self.groupBox.setObjectName("groupBox")
@@ -39,8 +33,6 @@ class Ui_Dialog(object):
         self.groupBox_3.setGeometry(QtCore.QRect(50, 230, 571, 281))
         self.groupBox_3.setObjectName("groupBox_3")
 
-
-
         self.lineEdit_maxMoment = QtWidgets.QLineEdit(self.groupBox_3)
         self.lineEdit_maxMoment.setGeometry(QtCore.QRect(140, 120, 101, 25))
         self.lineEdit_maxMoment.setObjectName("lineEdit_MaxMoment")
@@ -49,12 +41,6 @@ class Ui_Dialog(object):
         self.label.setGeometry(QtCore.QRect(50, 120, 80, 20))
         self.label.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label.setObjectName("label")
-
-
-
-
-
-
 
         self.lineEdit_max_moment_location = QtWidgets.QLineEdit(self.groupBox_3)
         self.lineEdit_max_moment_location.setGeometry(QtCore.QRect(450, 120, 101, 25))
@@ -65,10 +51,6 @@ class Ui_Dialog(object):
         self.label_9.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label_9.setObjectName("label_9")
 
-
-
-
-
         self.lineEdit_max_Slope = QtWidgets.QLineEdit(self.groupBox_3)
         self.lineEdit_max_Slope.setGeometry(QtCore.QRect(140, 160, 101, 25))
         self.lineEdit_max_Slope.setObjectName("lineEdit_Slope")
@@ -77,11 +59,6 @@ class Ui_Dialog(object):
         self.label_2.setGeometry(QtCore.QRect(25, 160, 101, 20))
         self.label_2.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label_2.setObjectName("label_2")
-
-
-
-
-
 
         self.lineEdit_max_Slope_location = QtWidgets.QLineEdit(self.groupBox_3)
         self.lineEdit_max_Slope_location.setGeometry(QtCore.QRect(450, 160, 101, 25))
@@ -92,12 +69,6 @@ class Ui_Dialog(object):
         self.label_10.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignTrailing | QtCore.Qt.AlignVCenter)
         self.label_10.setObjectName("label_10")
 
-
-
-
-
-
-
         self.lineEdit_R1 = QtWidgets.QLineEdit(self.groupBox_3)
         self.lineEdit_R1.setGeometry(QtCore.QRect(140, 40, 101, 25))
         self.lineEdit_R1.setObjectName("lineEdit_R1")
@@ -106,10 +77,6 @@ class Ui_Dialog(object):
         self.label_3.setGeometry(QtCore.QRect(50, 40, 71, 20))
         self.label_3.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label_3.setObjectName("label_3")
-
-
-
-
 
         self.lineEdit_R2 = QtWidgets.QLineEdit(self.groupBox_3)
         self.lineEdit_R2.setGeometry(QtCore.QRect(450, 40, 101, 25))
@@ -120,11 +87,6 @@ class Ui_Dialog(object):
         self.label_4.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label_4.setObjectName("label_4")
 
-
-
-
-
-
         self.lineEdit_C1 = QtWidgets.QLineEdit(self.groupBox_3)
         self.lineEdit_C1.setGeometry(QtCore.QRect(140, 80, 101, 25))
         self.lineEdit_C1.setObjectName("lineEdit_C1")
@@ -133,10 +95,6 @@ class Ui_Dialog(object):
         self.label_5.setGeometry(QtCore.QRect(50, 80, 71, 20))
         self.label_5.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label_5.setObjectName("label_5")
-
-
-
-
 
         self.lineEdit_C2 = QtWidgets.QLineEdit(self.groupBox_3)
         self.lineEdit_C2.setGeometry(QtCore.QRect(450, 80, 101, 25))
@@ -147,11 +105,6 @@ class Ui_Dialog(object):
         self.label_6.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label_6.setObjectName("label_6")
 
-
-
-
-
-
         self.lineEdit_max_Deflection = QtWidgets.QLineEdit(self.groupBox_3)
         self.lineEdit_max_Deflection.setGeometry(QtCore.QRect(140, 200, 101, 25))
         self.lineEdit_max_Deflection.setObjectName("lineEdit_max_Deflection")
@@ -161,10 +114,6 @@ class Ui_Dialog(object):
         self.label_7.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label_7.setObjectName("label_7")
 
-
-
-
-
         self.lineEdit_max_Deflection_location = QtWidgets.QLineEdit(self.groupBox_3)
         self.lineEdit_max_Deflection_location.setGeometry(QtCore.QRect(450, 200, 101, 25))
         self.lineEdit_max_Deflection_location.setObjectName("lineEdit_max_Deflection_location")
@@ -173,11 +122,6 @@ class Ui_Dialog(object):
         self.label_8.setGeometry(QtCore.QRect(340, 200, 71, 20))
         self.label_8.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.label_8.setObjectName("label_8")
-
-
-
-
-
 
         self.pushButton_Plot = QtWidgets.QPushButton(self.groupBox_3)
         self.pushButton_Plot.setGeometry(QtCore.QRect(230, 250, 93, 28))

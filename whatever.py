@@ -385,10 +385,10 @@ class Beam:
 
     def plot(self, title = None):
         fig, plt1 = HandyDandyBeamPlotter(self.shear_list, self.moment_list,
-                                          self.slope_list, self.deflection_list, self.shaft_length,
-                                          self.C1, self.C2,
-                                          npoints = 2000, show = True, save = False,
-                                          title = title)
+                                        self.slope_list, self.deflection_list, self.shaft_length,
+                                        self.C1, self.C2,
+                                        npoints = 2000, show = True, save = False,
+                                        title = title)
 
 
 def integrate(eqn):

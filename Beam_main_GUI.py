@@ -62,9 +62,6 @@ class main_window(QDialog):
             bad_file()
 
 
-
-
-
     def PlotSomething(self):
 
         self.beam.plot(title=self.beam.title)
@@ -97,10 +94,3 @@ if __name__ == "__main__":
     app.aboutToQuit.connect(app.deleteLater)
     main_win = main_window()
     sys.exit(app.exec_())
-
-
-
-
-
-
-
